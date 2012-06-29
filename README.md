@@ -1,6 +1,6 @@
 # Dotfiles
 
-As inspired by [Zach Holman's Dotfiles][holman]. See [his Readme][https://github.com/holman/dotfiles#holman-does-dotfiles] for more info.
+As inspired by [Zach Holman's Dotfiles][holman]. See [his Readme](https://github.com/holman/dotfiles#holman-does-dotfiles) for more info.
 
 [holman]: https://github.com/holman/dotfiles
 [ohzsh]: https://github.com/robbyrussel/oh-my-zsh
