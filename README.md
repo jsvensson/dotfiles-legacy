@@ -2,9 +2,6 @@
 
 As inspired by [Zach Holman's Dotfiles][holman]. See [his Readme](https://github.com/holman/dotfiles#holman-does-dotfiles) for more info.
 
-[holman]: https://github.com/holman/dotfiles
-[ohzsh]: https://github.com/robbyrussel/oh-my-zsh
-
 ## Installation
 
 - `git clone git://github.com/jsvensson/dotfiles ~/.dotfiles`
@@ -18,3 +15,6 @@ Everything is configured and tweaked from within `~/.dotfiles`.
 
 I use [oh-my-zsh][ohzsh] combined with my dotfiles in this repo. As such, be aware that `$ZSH` points
 to `~/.oh-my-zsh`, while `$DOTZSH` points to `~/.dotfiles`.
+
+[holman]: https://github.com/holman/dotfiles
+[ohzsh]: https://github.com/robbyrussel/oh-my-zsh
