@@ -1,10 +1,11 @@
 [user]
-	name = Johan Svensson
-	email = johan@atomicplayboy.net
+	name = Bob Doe
+	email = bob@example.com
 [core]
 	editor = subl -w
+	excludesfile = /Users/bob/.gitignore
 [github]
-	user = jsvensson
+	user = bobdoe
 [mergetool]
 	keepBackup = true
 [credential]
