@@ -14,7 +14,7 @@ ZSH_THEME="kolo"
 
 
 # oh-my-zsh plugins to load
-plugins=(git sublime)
+plugins=(osx git sublime hub)
 
 # Load the oh-my-zsh stuff
 source $ZSH/oh-my-zsh.sh
