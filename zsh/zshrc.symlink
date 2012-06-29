@@ -1,3 +1,5 @@
+PATH=$HOME/bin:$PATH
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -10,13 +12,16 @@ DOTZSH=$HOME/.dotfiles
 # time that oh-my-zsh is loaded.
 ZSH_THEME="kolo"
 
+
+# oh-my-zsh plugins to load
 plugins=(git sublime)
 
+# Load the oh-my-zsh stuff
 source $ZSH/oh-my-zsh.sh
 
 # End of oh-my-zsh stuff
 
-# Source every .zsh file in this rep
+# Source every .zsh file in dotfiles rep
 for config_file ($DOTZSH/**/*.zsh) source $config_file
 
 # Use .localrc for SOOPA SEKRITS
