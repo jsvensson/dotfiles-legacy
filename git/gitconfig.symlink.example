@@ -1,0 +1,11 @@
+[user]
+	name = Johan Svensson
+	email = johan@atomicplayboy.net
+[core]
+	editor = subl -w
+[github]
+	user = jsvensson
+[mergetool]
+	keepBackup = true
+[credential]
+	helper = osxkeychain
