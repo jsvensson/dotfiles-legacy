@@ -1,6 +1,6 @@
 set imap_user = "me@example.com"
 set imap_pass = "password"
-set smtp_url = "smtp://johan@atomicplayboy.net@smtp.gmail.com:587"
+set smtp_url = "smtp://me@example.com@smtp.gmail.com:587"
 set smtp_pass = "password"
 set from = "me@example.com"
 set realname = "Johan Svensson"
