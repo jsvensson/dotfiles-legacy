@@ -1,0 +1,18 @@
+# Shortcut to Dotfiles path
+export ZSH=$HOME/.dotfiles
+
+# Source every .zsh file in this rep
+for config_file ($ZSH/**/*.zsh) source $config_file
+
+# Use .localrc for SOOPA SEKRITS
+if [[ -a ~/.localrc]]
+then
+	source ~/.localrc
+fi
+
+# Initialize autocomplete here, otherwise functions won't be loaded
+autoload -U compinit
+compinit
+
+# Load every completion after autocomplete loads
+for config_file ($ZSH/**/completion.sh) source $config_file
