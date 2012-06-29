@@ -2,8 +2,8 @@
 
 As inspired by [Zach Holman's Dotfiles][holman]. See his Readme for more info.
 
-[holman]:(https://github.com/holman/dotfiles)
-[ohzsh]:(https://github.com/robbyrussel/oh-my-zsh)
+[holman]: https://github.com/holman/dotfiles
+[ohzsh]: https://github.com/robbyrussel/oh-my-zsh
 
 ## Installation
 
