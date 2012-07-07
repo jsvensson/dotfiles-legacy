@@ -1,0 +1,1 @@
+alias stprefs="st ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User"
