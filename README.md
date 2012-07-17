@@ -17,4 +17,4 @@ I use [oh-my-zsh][ohzsh] combined with my dotfiles in this repo. As such, be awa
 to `~/.oh-my-zsh`, while `$DOTZSH` points to `~/.dotfiles`.
 
 [holman]: https://github.com/holman/dotfiles
-[ohzsh]: https://github.com/robbyrussel/oh-my-zsh
+[ohzsh]: https://github.com/robbyrussell/oh-my-zsh
