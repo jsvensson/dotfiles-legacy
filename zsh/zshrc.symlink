@@ -31,8 +31,7 @@ then
 fi
 
 # Initialize autocomplete here, otherwise functions won't be loaded
-autoload -U compinit
-compinit
+autoload -U compinit; compinit
 
 # Load every completion after autocomplete loads
 for config_file ($DOTZSH/**/completion.sh) source $config_file
