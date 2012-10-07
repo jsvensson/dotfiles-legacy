@@ -74,12 +74,6 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Address Book, Dashboard, iCal, iTunes, Mail, and Disk Utility               #
 ###############################################################################
 
-# Disable the Ping sidebar in iTunes
-defaults write com.apple.iTunes disablePingSidebar -bool true
-
-# Disable all the other Ping stuff in iTunes
-defaults write com.apple.iTunes disablePing -bool true
-
 # Make ⌘ + F focus the search input in iTunes
 defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Field" "@F"
 
