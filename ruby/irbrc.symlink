@@ -15,7 +15,7 @@ end
 IRB.conf[:PROMPT][:PRES] = {
 	PROMPT_I: "Påstående > ",
 	PROMPT_C: "          > ",
-	RETURN:   "     Svar = %s\n",
-	PROMPT_S: "s_cont>",
-	PROMPT_N: "Indent >",
+	RETURN:   "     Svar = %s\n\n",
+	PROMPT_S: "   s_cont > ",
+	PROMPT_N: "          > ",
 }
