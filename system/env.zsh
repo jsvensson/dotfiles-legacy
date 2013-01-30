@@ -1,4 +1,4 @@
 # Various environment variables
-# (PATH goes in main .zshrc)
+# (PATH goes in path.zsh)
 
 export EDITOR='st'
