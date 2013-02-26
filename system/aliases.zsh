@@ -1,6 +1,6 @@
 # Get local IP, yoinked from @henrik
 # https://github.com/henrik/dotfiles
-alias ip='ifconfig en1 | grep inet | grep -v inet6 | cut -c 7-16'
+alias ip='ifconfig en0 | grep inet | grep -v inet6 | cut -c 7-16'
 
 # grc overrides for colors 'n' stuff
 if $(gls &>/dev/null)
