@@ -1,2 +1,3 @@
+*.sublime-*
 git/gitconfig.symlink
 mutt/muttrc.symlink
