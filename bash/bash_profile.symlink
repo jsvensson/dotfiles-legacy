@@ -1,3 +1,6 @@
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PATH=$PATH:$HOME/bin
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/echo/.gvm/bin/gvm-init.sh" ]] && source "/Users/echo/.gvm/bin/gvm-init.sh"

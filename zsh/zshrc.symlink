@@ -45,3 +45,6 @@ autoload -U compinit; compinit
 
 # Load every completion after autocomplete loads
 for config_file ($DOTZSH/**/completion.sh) source $config_file
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/echo/.gvm/bin/gvm-init.sh" ]] && source "/Users/echo/.gvm/bin/gvm-init.sh"
